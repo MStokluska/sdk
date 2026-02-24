@@ -47,6 +47,9 @@ spark = [
 hub = [
   "model-registry>=0.3.6",
 ]
+pipelines = [
+  "kfp[kubernetes]>=2.0.0",
+]
 
 [dependency-groups]
 docs = [
